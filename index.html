@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 3D Coders</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="container">
+        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
+
+
+
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="left">
+                <img src="images/astronaut.png" alt="logo">
+                <h2><span style="color: #72a1dea2;">3D Coders</span></h2>
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Live Data</a></li>
+                <li><a href="#">Missions</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <p><i class='bx bxl-youtube'></i></p>
+                <p><i class='bx bxl-facebook'></i></p>
+                <p><i class='bx bxl-instagram'></i></p>
+            </div>
+
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>            
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Live Data</a></li>
+                <li><a href="#">Missions</a></li>
+                <li><a href="#">Space</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a><i class='bx bxl-youtube'></i></a>
+                <a><i class='bx bxl-facebook'></i></a>
+                <a><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+
+        <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+            <video autoplay loop muted plays-inline src="videos/blackhole.mp4"></video>
+        </div>
+
+        <section class="hero ">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title" >
+                    <i class='bx bxl-sketch'></i>
+                    Space Mission Dashboard
+                </div>
+
+                <h1 data-aos="fade-right" data-aos-duration="3000"><span class="gradient">Beyond Earth</span> : <br>A Window into <br><span class="gradient">Space Missions</span></h1>
+
+                <p>Welcome to the Space Mission Control Dashboard — your gateway to visualizing space exploration. Track satellites, explore Martian weather, and monitor live or simulated mission data through an intuitive, interactive interface.</p>
+
+                <button><i class='bx bx-send' ></i> Launch Simulation</button>
+            </div>
+            
+            <div class="data-video-box " >
+                <video class="data-video autoBlur" autoplay loop muted plays-inline src="videos/hero-video.mp4"></video>
+            </div>
+        
+            <div class="scroll-down"></div>
+        </section>
+
+        <section class="info-section">
+            <h1 class="section-title autoDisplay">Dashboard Overview</h1>
+            <div class="info-cards">
+                <div class="card ">
+                    <h1>System Status</h1>
+                    <p>🟢 All Systems Nominal<br>
+                    Telemetry: Active | ISS: Locked<br>
+                    Mars Weather: Synced | Asteroids: Scanning</p>
+                    
+                    <img src="images/one.png" alt="" class="circle-img">
+                </div>
+
+                <div class="card">
+                    <h1>Active Data Streams</h1>
+                    <p>Satellite Telemetry (🛰️)<br>
+                    ISS Current Location (🌍)<br>
+                    Mars Atmospheric Feed (🔴)<br>
+                    Asteroid Tracking API (☄️)</p>
+                
+                    <img class="tech" src="images/active.jpg" alt="">
+                </div>
+
+                <div class="card">
+                    <h1>Live Earth Simulation</h1>
+                    <p>Track the ISS and view real-time weather and daylight changes from space.</p>
+
+                    <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
+
+                    <button><i class='bx bx-send'></i>Explore Live Data</button>
+                </div>
+
+                <div class="card">
+                    <h1>Mission Log</h1>
+                    <p>[14:02 UTC] •  Satellite Feed • Telemetry uplink initialized with Earth Observation Satellite EO-7.<br>
+                    [14:05 UTC] •  ISS Tracker • ISS currently over southern Indian Ocean. Speed: 7.66 km/s, Altitude: 408 km.<br>
+                    [14:08 UTC] •  Asteroid Watch • Object 2025 AR5 detected. Distance: 2.3 million km. Trajectory stable.<br>
+                    [14:11 UTC] •  Mars Weather • Average surface temperature: -62°C, Wind: 18 m/s NNE.</p>
+                
+                    <img src="images/lines.png" alt="" class="lines-width">
+                </div>
+            </div>
+        </section>
+
+       <section class="mission">
+            <h1 class="section-title autoDisplay">Live Mission Feeds 📡</h1>
+            <div class="mission-card">
+                <div class="mission-vidbox autoBlur" >
+                    <video loop id="projectVideo1" src="videos/Mars.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="mission-info fadein-left">
+                    <h1>Mars <span class="gradient">Atmospheric</span> Feed</h1>
+                    <p>Mars' thin CO2 atmosphere is vital for future colonization. ISRU technologies, like Sabatier reactors, can convert atmospheric carbon dioxide into water and rocket fuel, enabling self-sufficiency for human missions.</p>
+                    <button><i class='bx bx-link-external' ></i> Read More</button>
+            </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-vidbox autoBlur">
+                    <video loop id="projectVideo2" src="videos/ISS.mp4"></video>
+                </div>
+                <div class="mission-info fadein-left">
+                    <h1> Current <span class="gradient">ISS</span> Location </h1>
+                    <p>The ISS orbits Earth at an altitude of approximately 420 kilometers (about 261 miles). It travels at a speed of 28,000 kilometers per hour (17,500 miles per hour), completing an orbit around the Earth roughly every 90 minutes.</p>
+                    <button><i class='bx bx-link-external' ></i> Read More</button>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-vidbox autoBlur">
+                    <video loop id="projectVideo3" src="videos/Asteroid_Tracking_Video_Creation.mp4"></video>
+                </div>
+                
+                <div class="mission-info fadein-left">
+                    <h1>Asteroid <span class="gradient">Tracking</span>  API</h1>
+                    <p>An asteroid tracking API provides real-time data on near-Earth objects. It's crucial for monitoring potential impacts, enabling early warning systems, and supporting space situational awareness, vital for planetary defense and future missions.</p>
+                    <button><i class='bx bx-link-external' ></i> Read More</button>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="data-section">
+            <h1 class="section-title autoDisplay">
+                Space Data Visualization
+            </h1>
+            <div class="data-box autoDisplay">
+                <img class="data-image" src="images/worldfulll.png" alt="">
+                <div class="RealData">
+                    <h1 class="gradient">Real-time Data  </i></h1>
+                    <p>Real-time Data Streaming Visualization dynamically displays live space mission data. This includes continuously updating satellite telemetry, the ISS's precise location on a globe, or immediate Mars weather conditions, providing instantaneous operational insights.</p>  
+                </div>
+
+                
+                <div class="coder">
+                    <h1 class="gradient">Trajectory Visualization </i></h1>
+                    <p>Trajectory Visualization graphically plots the paths of space objects. It shows spacecraft orbits, asteroid flybys, or planetary trajectories in 2D or 3D, crucial for mission planning, navigation, and understanding celestial mechanics.</p>
+                </div>
+
+                <div class="slider" reverse="true" style="
+                --width: 100px;
+                --height: 100px;
+                --quantity: 9;
+                ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="images/nasaa.png" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="images/spaceX.png" alt=""></div>
+                        <div class="item rm" style="--position: 3"><img src="images/Blue.png" alt=""></div>
+                        <div class="item is" style="--position: 4"><img src="images/isro.png" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="images/roscosmos.png" alt=""></div>
+                        <div class="item is" style="--position: 6"><img src="images/satellite.png" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="images/esa.png" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="images/iss.png" alt=""></div>
+                        <div class="item kv" style="--position: 9"><img src="images/mars.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section ">      
+            <div >
+            </div> 
+        </section> 
+
+        <section class="footer">
+            <h1>Made by THE 3D CODERS</h1>
+            <div class="box-icons">
+                <p><i class='bx bxl-youtube'></i></p>
+                <p><i class='bx bxl-facebook'></i></p>
+                <p><i class='bx bxl-instagram'></i></p>
+            </div>
+        </section>
+
+        
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script >
+      AOS.init();
+    </script>
+</body>
+</html>
