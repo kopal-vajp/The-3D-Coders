@@ -198,8 +198,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **The 3D Coders Team**
-- Repository: [Space-Data](https://github.com/kopal-vajp/Space-Data)
-- Issues: [Report Bug](https://github.com/kopal-vajp/Space-Data/issues)
+- Repository: [The-3D-Coders](https://github.com/kopal-vajp/The-3D-Coders.git)
+- Issues: [Report Bug](https://github.com/kopal-vajp/The-3D-Coders/issues)
 
 ---
 
